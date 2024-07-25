@@ -140,9 +140,6 @@ while True:
 
     # Create a DataFrame with the results
     data = {
-        '줄걸이 종류': type1,
-        '줄걸이 수': num,
-        '줄걸이 방법': method,
         '중량물 무게 (톤)': result1,
         '필요 줄걸이 용량 (톤)': round(result2,2),
         '필요 샤클 용량 (톤)': round(result3,2),
