@@ -25,9 +25,14 @@ class Safety:
         result3 = result3 + shackle_capacity
 
         if weight < 500:
+            print('총 양중무게:',weight)
+            print('필요 줄걸이 무게(1줄당):',sling_capacity,'필요 샤클 무게(1개당):',shackle_capacity)
             result4 = '작업 가능'
+            print(result4)
         else:
             result4 = '작업 불가능'
+            print('무게 초과:',weight-500)
+            print(result4)
 
         return result1, result2, result3, result4
 
@@ -47,9 +52,14 @@ class Safety:
         result3 = result3 + shackle_capacity
 
         if weight < 200:
+            print('총 양중무게:', weight)
+            print('필요 줄걸이 무게(1줄당):', sling_capacity, '필요 샤클 무게(1개당):', shackle_capacity)
             result4 = '작업 가능'
+            print(result4)
         else:
             result4 = '작업 불가능'
+            print('무게 초과:', weight - 200)
+            print(result4)
 
         return result1, result2, result3, result4
 
@@ -69,9 +79,14 @@ class Safety:
         result3 = result3 + shackle_capacity
 
         if weight < 300:
+            print('총 양중무게:', weight)
+            print('필요 줄걸이 무게(1줄당):', sling_capacity, '필요 샤클 무게(1개당):', shackle_capacity)
             result4 = '작업 가능'
+            print('무게 초과:', weight - 300)
+            print(result4)
         else:
             result4 = '작업 불가능'
+            print(result4)
 
         return result1, result2, result3, result4
 
